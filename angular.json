@@ -28,7 +28,11 @@
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/styles.scss",
+							{
+								"input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+								"bundleName": "mfe-products-angular-material-remote-theme"
+							}
 						],
 						"scripts": [],
 						"extraWebpackConfig": "webpack.config.js",
